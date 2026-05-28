@@ -1,0 +1,71 @@
+#workskin .terminalHeading p,
+#workskin .terminalMenu p, 
+#workskin .terminalBody p {
+  margin: 0;
+  padding: 0;
+}
+
+#workskin .terminalHeading {
+  padding: 0px;
+  background: #444444;
+  color: #d9d9d9;
+  text-align: center;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 35px;
+  width: 100%;
+  margin: 0;
+  display: block;
+}
+
+
+#workskin .terminalMenu {
+  background: #444444;
+  padding: 0px;
+  color: #d9d9d9;
+  text-align: left;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+  display: block;
+  height: 30px;
+  width: 100%;
+}
+
+
+#workskin .terminalBody {
+  background-color: #300924;
+  padding: 0px;
+  font-family: 'Ubuntu Mono', monospace;
+  letter-spacing: 2px;
+  height: 600px;
+  width: 100%;
+  overflow-y: scroll;
+  margin: 0;
+}
+
+#workskin p.command {
+  color: #d9d9d9;
+}
+
+#workskin p.output {
+  color: #d9d9d9;
+}
+
+#workskin p.cmd_error { 
+  color: #d9d9d9;
+  }
+
+#workskin p.command::before {
+  content: "fanficwriter@ubuntu:~/Documents$ ";
+  color: #0f0;
+}
+
+#workskin p.cmd_error::before {
+  content: "E: ";
+  color: #ff5555;
+}
+
+
