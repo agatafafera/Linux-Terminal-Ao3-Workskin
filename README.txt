@@ -22,3 +22,9 @@ How to use this skin:
     </div>
 
 3) Important: to change the USERNAME@SYSTEMNAME and path info displayed in the terminal, you have to edit the CSS code: 
+    #workskin p.command::before {
+        content: "USERNAME@SYSTEMNAME:~/PATH$ ";
+        color: #0f0;
+    }
+
+4) Feel free to edit, improve and modify the code
