@@ -7,7 +7,7 @@ How to use this skin:
 
 2) In the HTML section of thw work text, include: 
 
-    '''<div class="terminalHeading">
+    ```<div class="terminalHeading">
 
     <p>USERNAME@SYSTEMNAME:~</p></div>
 
@@ -22,17 +22,17 @@ How to use this skin:
         <p class="output">TYPE OUTPUT HERE</p>
 
         <p class="cmd_error">TYPE ERRORS HERE</p>
-    </div>'''
+    </div>```
 
 3) Important: to change the USERNAME@SYSTEMNAME and path info displayed in the terminal, you have to edit the CSS code: 
 
-    '''#workskin p.command::before {
+    ```#workskin p.command::before {
         content: "USERNAME@SYSTEMNAME:~/PATH$ ";
         color: #0f0;
-    }'''
+    }```
 
 4) Feel free to edit, improve and modify the code
 
-[Terminal Classic](view_purple.png)
+![Terminal Classic](view_purple.png)
 
-[Terminal Hacker](view_green.png)
+![Terminal Hacker](view_green.png)
